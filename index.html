@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin&family=Happy+Monkey&family=Inconsolata:wght@600&family=Lato&family=Orbitron:wght@400;800&family=Patrick+Hand&family=Roboto&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="main">
+        <h1 id="head">Score Keeper Game</h1>
+        <img src="game.jpg">
+        <h1 id="dislay-score">
+            <span id="p1-display">0</span>
+            vs
+            <span id=p2-display>0</span>
+        </h1>
+        <div id="input-el">
+            <label for="slect">Select Winning Point:</label>
+            <select name="select-num" id="num-input">
+                <option value="3"> 3 </option>
+                <option value="5"> 5 </option>
+                <option value="8"> 8 </option>
+                <option value="10"> 10 </option>
+            </select>
+        </div>
+        <div id="btns">
+            <button id="+p1" class="p1">+ Player 1</button>
+            <button id="+p2" class="p2">+ Player 2</button>
+            <button id="reset"> Reset</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

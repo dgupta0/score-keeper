@@ -1,0 +1,101 @@
+@font-face{
+    src: url("digital-7.ttf");
+    font-family: digital;
+}
+body{
+    font-family: "Lato";
+    margin: 0px;
+    background-color: antiquewhite;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+    
+}
+#head{
+    width: 450px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 15px 0px;
+    background-color: #E74032;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-shadow: 0px 0px 1px black;
+}
+img{
+    width: 450px;
+    height: 300px;
+    margin-bottom: 15px;
+    
+}
+
+#p1-display{
+    margin-right: 5px;
+    font-family: digital;
+    font-size: 50px;
+}
+#p2-display {
+    margin-left: 5px;
+    font-family: digital;
+    font-size: 50px;
+}
+#input-el{
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+#num-input{
+    padding: 3px 7px 3px 7px;
+    border-radius: 10px;
+    font-size: large;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+button{
+    font-family: "Lato";
+    width: 130px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: x-large;
+    font-weight: 900;
+    color: white;
+    border: none;
+}
+
+.p1{
+    background-color: hsl(156, 91%, 31%)
+}
+.p2{
+    background-color: #9833FF;
+}
+#reset{
+    background-color: hwb(0 27% 10%);
+}
+@media  (max-width: 400px){
+    #btns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #main{
+        padding-top: 0px;
+       
+    }
+    #head, img{
+        width: 100%;
+        margin-top: 0px;
+    }
+    #num-input{
+        margin-top: 20px;
+    }
+    
+}
